@@ -1,11 +1,11 @@
 {
   "name": "hn-ui-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "piluohen <1012106967@qq.com>",
   "license": "MIT",
   "displayName": "Hn-Ui Snippets",
   "description": "Hn-Ui Snippets for VS Code",
-  "icon": "",
+  "icon": "images/icon.png",
   "homepage": "https://github.com/piluohen/hn-ui-snippets/",
   "repository": {
     "type": "git",

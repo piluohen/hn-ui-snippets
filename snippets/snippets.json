@@ -1,9 +1,92 @@
 {
-  "Button": {
+  "hn-button": {
     "prefix": "hnButton",
+    "body": ["<hn-button type=\"${1|default,primary,dashed,danger|}\">$2</hn-button>\r", ""]
+  },
+  "hn-countup": {
+    "prefix": "hnCountup",
+    "body": ["<hn-countup [endVal]=\"${1}\"></hn-countup>\r", ""]
+  },
+  "hn-checkbox-group": {
+    "prefix": "hnCheckboxGroup",
+    "body": ["<hn-checkbox-group [options]=\"options\" [(ngModel)]=\"value\"></hn-checkbox-group>\r", ""]
+  },
+  "hn-detail-list": {
+    "prefix": "hnDetailList",
+    "body": ["<hn-detail-list [columns]=\"columns\" [data]=\"data\"></hn-detail-list>\r", ""]
+  },
+  "hn-export": {
+    "prefix": "hnExport",
     "body": [
-      "<hn-button type=\"${1|default,primary,dashed,danger|}\">$2</hn-button>",
+      "<hn-export\r",
+      "  type = \"${1|default,primary,dashed,danger|}\"\r",
+      "  [api]=\"exportApi\"\r",
+      "  download=\"FileName\">\r",
+      "</hn-export>\r",
       ""
     ]
+  },
+  "hn-form": {
+    "prefix": "hnForm",
+    "body": [
+      "<hn-form\r",
+      " #form\r",
+      " mode=\"${1|horizontal,vertical,inline,grid|}\"\r",
+      " [formList]=\"formList\"\r",
+      " [params]=\"params\"\r",
+      " (submit)=\"handleSubmit(\\$event)\">\r",
+      "</hn-form>\r",
+      ""
+    ]
+  },
+  "hn-preview": {
+    "prefix": "hnPreview",
+    "body": ["<hn-preview [(visible)]=\"visible\" [list]=\"imgList\" [index]=\"previewIndex\"></hn-preview>\r", ""]
+  },
+  "hn-img-list": {
+    "prefix": "hnImgList",
+    "body": ["<hn-img-list [list]=\"imgList\"></hn-img-list>\r", ""]
+  },
+  "hn-list": {
+    "prefix": "hnList",
+    "body": ["<hn-list [list]=\"imgList\"></hn-list>\r", ""]
+  },
+  "hn-scroll-list": {
+    "prefix": "hnScrollList",
+    "body": ["<hn-scroll-list [data]=\"scrollData\"></hn-scroll-list>\r", ""]
+  },
+  "hn-search": {
+    "prefix": "hnSearch",
+    "body": ["<hn-search [formList]=\"formList\" (search)=\"handleSearch(\\$event)\">\r", "</hn-search>\r", ""]
+  },
+  "hn-table interface": {
+    "prefix": "hnTableInterface",
+    "body": [
+      "<hn-table\r",
+      " #interfaceTable\r",
+      " [columns]=\"columns\"\r",
+      " [api]=\"getListApi\"\r",
+      " [params]=\"params\">\r",
+      "</hn-table>\r",
+      ""
+    ],
+    "description": "hn-table 远程请求"
+  },
+  "hn-table local": {
+    "prefix": "hnTableLocal",
+    "body": [
+      "<hn-table\r",
+      " #interfaceTable\r",
+      " [columns]=\"columns\"\r",
+      " [data]=\"tableData\"\r",
+      " [params]=\"params\">\r",
+      "</hn-table>\r",
+      ""
+    ],
+    "description": "hn-table 本地数据"
+  },
+  "hn-table-msg": {
+    "prefix": "hnTableMsg",
+    "body": ["<hn-table-msg [check]=\"numberOfChecked\" (clear)=\"handleClear()\"></hn-table-msg>\r", ""]
   }
 }
