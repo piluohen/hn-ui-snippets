@@ -63,7 +63,7 @@
     "prefix": "hnTableInterface",
     "body": [
       "<hn-table\r",
-      " #interfaceTable\r",
+      " #table\r",
       " [columns]=\"columns\"\r",
       " [api]=\"getListApi\"\r",
       " [params]=\"params\">\r",
@@ -76,7 +76,7 @@
     "prefix": "hnTableLocal",
     "body": [
       "<hn-table\r",
-      " #interfaceTable\r",
+      " #table\r",
       " [columns]=\"columns\"\r",
       " [data]=\"tableData\"\r",
       " [params]=\"params\">\r",
