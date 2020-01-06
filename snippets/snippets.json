@@ -1,0 +1,9 @@
+{
+  "Button": {
+    "prefix": "hnButton",
+    "body": [
+      "<hn-button type=\"${1|default,primary,dashed,danger|}\">$2</hn-button>",
+      ""
+    ]
+  }
+}
