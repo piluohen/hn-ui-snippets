@@ -13,7 +13,10 @@
   },
   "hn-detail-list": {
     "prefix": "hnDetailList",
-    "body": ["<hn-detail-list [columns]=\"columns\" [data]=\"data\"></hn-detail-list>\r", ""]
+    "body": [
+      "<hn-detail-list mode=\"${1|horizontal,vertical|}\" [list]=\"detailList\" [data]=\"data\"></hn-detail-list>\r",
+      ""
+    ]
   },
   "hn-export": {
     "prefix": "hnExport",
@@ -88,5 +91,9 @@
   "hn-table-msg": {
     "prefix": "hnTableMsg",
     "body": ["<hn-table-msg [check]=\"numberOfChecked\" (clear)=\"handleClear()\"></hn-table-msg>\r", ""]
+  },
+  "hn-tree": {
+    "prefix": "hnTree",
+    "body": ["<hn-tree\r", " [hnData]=\"nodes\">\r", "</hn-tree>\r", ""]
   }
 }
