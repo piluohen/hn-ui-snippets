@@ -34,7 +34,7 @@
     "body": [
       "<hn-form\r",
       " #form\r",
-      " mode=\"${1|horizontal,vertical,inline,grid|}\"\r",
+      " mode=\"${1|horizontal,vertical,inline,grid,grid-vertical|}\"\r",
       " [formList]=\"formList\"\r",
       " [params]=\"params\"\r",
       " (submit)=\"handleSubmit(\\$event)\">\r",
