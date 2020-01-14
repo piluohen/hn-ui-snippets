@@ -25,3 +25,5 @@
 | hnTableLocal     | hn-table 本地数据 |
 | hnTableMsg       | hn-table-msg      |
 | hnTree           | hn-tree           |
+| hnImage          | hn-image          |
+| hnImageLazy      | hn-image 懒加载   |
