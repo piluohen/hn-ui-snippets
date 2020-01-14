@@ -1,15 +1,24 @@
 {
   "hn-button": {
     "prefix": "hnButton",
-    "body": ["<hn-button type=\"${1|default,primary,dashed,danger|}\">$2</hn-button>\r", ""]
+    "body": [
+      "<hn-button type=\"${1|default,primary,dashed,danger|}\">$2</hn-button>\r",
+      ""
+    ]
   },
   "hn-countup": {
     "prefix": "hnCountup",
-    "body": ["<hn-countup [endVal]=\"${1}\"></hn-countup>\r", ""]
+    "body": [
+      "<hn-countup [endVal]=\"${1}\"></hn-countup>\r",
+      ""
+    ]
   },
   "hn-checkbox-group": {
     "prefix": "hnCheckboxGroup",
-    "body": ["<hn-checkbox-group [options]=\"options\" [(ngModel)]=\"value\"></hn-checkbox-group>\r", ""]
+    "body": [
+      "<hn-checkbox-group [options]=\"options\" [(ngModel)]=\"value\"></hn-checkbox-group>\r",
+      ""
+    ]
   },
   "hn-detail-list": {
     "prefix": "hnDetailList",
@@ -44,23 +53,39 @@
   },
   "hn-preview": {
     "prefix": "hnPreview",
-    "body": ["<hn-preview [(visible)]=\"visible\" [list]=\"imgList\" [index]=\"previewIndex\"></hn-preview>\r", ""]
+    "body": [
+      "<hn-preview [(visible)]=\"visible\" [list]=\"imgList\" [index]=\"previewIndex\"></hn-preview>\r",
+      ""
+    ]
   },
   "hn-img-list": {
     "prefix": "hnImgList",
-    "body": ["<hn-img-list [list]=\"imgList\"></hn-img-list>\r", ""]
+    "body": [
+      "<hn-img-list [list]=\"imgList\"></hn-img-list>\r",
+      ""
+    ]
   },
   "hn-list": {
     "prefix": "hnList",
-    "body": ["<hn-list [list]=\"imgList\"></hn-list>\r", ""]
+    "body": [
+      "<hn-list [list]=\"imgList\"></hn-list>\r",
+      ""
+    ]
   },
   "hn-scroll-list": {
     "prefix": "hnScrollList",
-    "body": ["<hn-scroll-list [data]=\"scrollData\"></hn-scroll-list>\r", ""]
+    "body": [
+      "<hn-scroll-list [data]=\"scrollData\"></hn-scroll-list>\r",
+      ""
+    ]
   },
   "hn-search": {
     "prefix": "hnSearch",
-    "body": ["<hn-search [formList]=\"formList\" (search)=\"handleSearch(\\$event)\">\r", "</hn-search>\r", ""]
+    "body": [
+      "<hn-search [formList]=\"formList\" (search)=\"handleSearch(\\$event)\">\r",
+      "</hn-search>\r",
+      ""
+    ]
   },
   "hn-table interface": {
     "prefix": "hnTableInterface",
@@ -90,10 +115,30 @@
   },
   "hn-table-msg": {
     "prefix": "hnTableMsg",
-    "body": ["<hn-table-msg [check]=\"numberOfChecked\" (clear)=\"handleClear()\"></hn-table-msg>\r", ""]
+    "body": [
+      "<hn-table-msg [check]=\"numberOfChecked\" (clear)=\"handleClear()\"></hn-table-msg>\r",
+      ""
+    ]
   },
   "hn-tree": {
     "prefix": "hnTree",
-    "body": ["<hn-tree\r", " [hnData]=\"nodes\">\r", "</hn-tree>\r", ""]
+    "body": [
+      "<hn-tree\r",
+      " [hnData]=\"nodes\">\r",
+      "</hn-tree>\r",
+      ""
+    ]
+  },
+  "hn-image": {
+    "prefix": "hnImage",
+    "body": [
+      "<hn-image fit=\"${1|fill,contain,cover,none,scale-down|}\" [src]=\"src\"></hn-image>\r",
+    ]
+  },
+  "hn-image-lazy": {
+    "prefix": "hnImageLazy",
+    "body": [
+      "<hn-image fit=\"${1|fill,contain,cover,none,scale-down|}\" [src]=\"src\" [lazy]=\"true\"></hn-image>\r",
+    ]
   }
 }
