@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.8
+
+1. Modify hn-form
+
 ## 0.1.7
 
 1. Added CHANGELOG
